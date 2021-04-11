@@ -17,6 +17,7 @@ public class AppConfig {
 
     @Bean
     public MemberService memberService() {
+
         return new MemberServiceImpl(memberRepository());
     }
 
