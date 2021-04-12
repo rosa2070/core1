@@ -19,6 +19,7 @@ public class AppConfig {
     //@Bean orderService -> new MemoryMemberRepository()
 
 
+
     @Bean
     public MemberService memberService() {
         System.out.println("call AppConfig.memberService");
